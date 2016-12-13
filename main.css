@@ -1,0 +1,76 @@
+/*
+element
+id
+class
+
+ */
+#page {
+	width:1000px;
+	margin:auto;
+}
+div {
+
+	/*border:1px solid green;*/
+}
+#top {
+	height: 220px;
+    background-image: url("http://www.hdwallpapers.in/walls/downtown_los_angeles-normal.jpg");
+    background-color: #cccccc;
+    background-size: 1000px 750px;
+    background-repeat: no-repeat;
+    background-position: 0px -205px;
+
+}
+#menu {
+    height:30px;
+	color:  #00CED1;
+	background-color: #000000;
+}
+#menu ul {
+ width:800px;
+ margin:auto;
+ padding-left:200px;
+
+}
+
+#text {
+
+	width: 49%;
+	float: left;
+}
+
+#data {
+	border-left:12px solid white;
+	width: 49.5%;
+	float: left;
+}
+
+#footer {
+	
+	height: 180px;
+    background-image: url("https://cdn0.vox-cdn.com/thumbor/hFA9D31XgruPFYOZntpLsVgC_Og=/0x600/cdn0.vox-cdn.com/uploads/chorus_asset/file/4496519/OUE_202_USBT_20Street_20Level_20LED_20Wall.0.jpg");
+    background-size: 1500px 750px;
+    background-repeat: no-repeat;
+    background-position: 0px -175px;
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+}
+
+#container{
+	background-color: #91EDC6;
+	border-top: 12px solid white;
+	border-bottom: 12px solid white;
+
+}
+li {
+	float:left;
+	list-style-type:none ;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+ul{
+	margin: 0;
+}
+
