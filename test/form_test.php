@@ -65,10 +65,10 @@ $status = $stm->execute($arr);
 
 <form action="form_test.php" method="POST" accept-charset="utf-8">
 	
-	name<input type="text" name="name" value="" placeholder="">
-	origin<input type="text" name="origin" value="" placeholder="">
-	gender<input type="text" name="gender" value="" placeholder="">
-	<input type="text" name="id" value="<?php echo $id; ?>" placeholder="">
+	name<input type="text" name="name" value="" placeholder=""><br>
+	origin<input type="text" name="origin" value="" placeholder=""><br>
+	gender<input type="text" name="gender" value="" placeholder=""><br>
+	<input type="hidden" name="id" value="<?php echo $id; ?>" placeholder="">
 	<input type="submit" name="action" value="create">
 </form>
 
